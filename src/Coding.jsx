@@ -54,6 +54,15 @@ export default function Coding() {
               <h3 className="text-2xl font-semibold text-yellow-400">
                 Platform: <span className="text-white">LeetCode</span>
               </h3>
+
+              <a
+                href="http:\\leetcode.com\u\sathish3718"
+                className="text-xl text-white font-semibold items-center mt:20"
+                target="_blank"
+              >
+                Click here to view LeetCode profile 
+                <ExternalLink className="w-5 h-5 inline-block ml-2"></ExternalLink>
+              </a>
             </div>
 
             {/* Main Stats Grid */}
@@ -152,7 +161,7 @@ export default function Coding() {
 
         <div className="mt-10 text-center">
           <a href="http://www.skillrack.com/profile/440650/d1728d82a5847917a924c258de612952b8cece8a" 
-             className="text-xl text-white-400 font-semibold items-center"
+             className="text-xl text-white font-semibold items-center"
              target="_blank"
              rel="noopener noreferrer"
              >
