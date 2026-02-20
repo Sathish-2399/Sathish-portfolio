@@ -19,16 +19,18 @@ export default function Home() {
 
   return (
     <>
+    <div className="relative bg-gray-900">
       {/* ================= HOME / HERO SECTION ================= */}
       <section
         id="home"
-        className="relative min-h-screen flex items-center overflow-hidden bg-gray-900"
+        className="relative h-screen flex items-center overflow-hidden"
       >
         {/* Particles Background */}
+        <div className="absolute inset-0 h-screen overflow-hidden">
         <Particles
           id="tsparticles"
           init={particlesInit}
-          className="absolute inset-0 z-0"
+          className="w-full h-full"
           options={{
             fpsLimit: 60,
             particles: {
@@ -65,6 +67,8 @@ export default function Home() {
             retina_detect: true,
           }}
         />
+        </div>
+
 
         {/* ================= HERO CONTENT ================= */}
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6">
@@ -124,6 +128,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+    </div>
 
       {/* ================= ABOUT ================= */}
       <section id="about" className="scroll-mt-24">
@@ -146,9 +151,9 @@ export default function Home() {
       </section>
 
       {/* ================= CODING ================= */}
-      <section id="coding" className="scroll-mt-24">
+      {/* <section id="coding" className="scroll-mt-24">
         <Coding />
-      </section>
+      </section> */}
 
       {/* ================= CONTACT ================= */}
       <section id="contact" className="scroll-mt-24">

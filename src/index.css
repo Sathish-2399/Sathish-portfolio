@@ -111,3 +111,23 @@ html {
 .mobile-menu.open {
   transform: translateX(0);
 }
+
+/* ===== Thin White Horizontal Scrollbar ===== */
+.custom-scroll::-webkit-scrollbar {
+  height: 3px;   /* decrease size here (2px / 3px / 4px) */
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;  /* no background */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: white;  /* white line */
+  border-radius: 10px;
+}
+
+/* Firefox */
+.custom-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: white transparent;
+}

@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full bg-gray-900 backdrop-blur-md z-50 border-b border-gray-800">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
-          <div className="text-xl md:text-2xl font-bold gradient-text">
+          <div className="text-xl md:text-2xl font-bold text-white">
             Sathish B
           </div>
 
