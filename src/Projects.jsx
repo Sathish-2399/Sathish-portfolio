@@ -10,6 +10,20 @@ export default function Projects() {
       live: "https://autohubfrontend-latest.onrender.com/",
     },
     {
+      title: "Retail Chain Management System",
+      desc: "A retail management system for handling inventory, sales tracking, billing, and product management across multiple store branches.",
+      image: "/Retail.jpg", 
+      github: "https://github.com/Sathish-2399/RetailchainManagement",
+      live: "#", 
+    },
+    {
+      title: "Battlix",
+      desc: "Battlix is a React-based coding battle platform where users compete in real-time programming challenges and track their performance.",
+      image: "/Battlix.jpg", 
+      github: "https://github.com/muthukumar9360/Code_Game",
+      live: "https://battlix.netlify.app/", 
+    },
+    {
       title: "Netflix Dashboard",
       desc: "Interactive Tableau dashboard analyzing Netflix movies and TV shows by genre, country, and trends.",
       image: "/Netflix.jpg",
