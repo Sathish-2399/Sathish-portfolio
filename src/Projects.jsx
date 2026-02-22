@@ -12,7 +12,7 @@ export default function Projects() {
     {
       title: "Retail Chain Management System",
       desc: "A retail management system for handling inventory, sales tracking, billing, and product management across multiple store branches.",
-      image: "/Retail.jpg", 
+      image: "/Retail.png", 
       github: "https://github.com/Sathish-2399/RetailchainManagement",
       live: "#", 
     },
